@@ -1,0 +1,60 @@
+
+/* Work Section Styles */
+.work-section {
+  background-color: #000000;
+  margin-right: 6rem;
+  margin-left: 6rem;
+  padding: 2rem; 
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.card-body h3 {
+  font-weight: 600;
+  color:#32dbc6;
+}
+.card-body p{
+  color: #333333c9;
+  font-size: 14px;
+}
+.card-body ul {
+  padding-left: 0;
+}
+
+.card-body ul li {
+  color: #333333c9;
+  margin-bottom: 10px;
+}
+.icon-check{
+  color: #32dbc6;
+}
+.icons-main{
+  color: #ffff;
+}
+/* Responsive Adjustments */
+
+/* Tablet View */
+@media (max-width: 992px) {
+  .work-section {
+    margin-right: 3rem;
+    margin-left: 3rem;
+  }
+  .card-body ul li {
+    margin-bottom: 7px;
+  }
+}
+
+/* Mobile View */
+@media (max-width: 576px) {
+  .work-section {
+    margin-right: 1rem;
+    margin-left: 1rem;
+    padding: 1rem;
+  }
+  .card-body ul li {
+    margin-bottom: 5px;
+  }
+}

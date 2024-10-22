@@ -1,0 +1,42 @@
+.services {
+  background-color: #fff;
+}
+
+.service-box {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.icon {
+  color: #32dbc6;
+}
+
+.service-title {
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.service-text {
+  font-size: 0.9rem;
+  color: #333333c9;
+}
+.text-info{
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive design */
+@media (max-width: 576px) {
+  .service-box {
+    padding: 15px;
+  }
+}
