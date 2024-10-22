@@ -2,13 +2,13 @@
 /* Work Section Styles */
 .work-section {
   background-color: #000000;
-  margin-right: 6rem;
-  margin-left: 6rem;
+  margin-right: 12rem;
+  margin-left: 12rem;
   padding: 2rem; 
 }
 
 .img-fluid {
-  max-width: 100%;
+  width: 80%;
   height: auto;
 }
 
@@ -33,6 +33,16 @@
 }
 .icons-main{
   color: #ffff;
+  margin-right: 6px;
+}
+.text-more{
+  color: #ffff;
+}
+.text-more:hover{
+  text-decoration: none;
+}
+.col-12 p{
+  color:#737373;
 }
 /* Responsive Adjustments */
 

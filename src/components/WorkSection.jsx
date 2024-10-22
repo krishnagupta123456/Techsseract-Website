@@ -2,7 +2,10 @@ import React from 'react';
 import './WorkSection.css';
 import about_1 from '../img/about_1.jpg';
 import { FaCheck } from "react-icons/fa6";
-import { TbTool } from "react-icons/tb";
+import { MdBeachAccess } from "react-icons/md";
+import { IoMdBuild } from "react-icons/io";
+import { MdFormatPaint } from "react-icons/md";
+import { MdQuestionAnswer } from "react-icons/md";
 
 const WorkSection = () => {
   return (
@@ -67,20 +70,24 @@ const WorkSection = () => {
             <div className="col-12 col-lg-6">
               <div className="row">
                 <div className="col-12 col-md-6 mb-3">
-                  <h4><TbTool  className='icons-main'/>Strategy</h4>
+                  <h4><MdBeachAccess className='icons-main'/>Strategy</h4>
                   <p>Strategy Development for your business promotion.</p>
+                  <a className="text-more" href="#">Read More</a>
                 </div>
                 <div className="col-12 col-md-6 mb-3">
-                  <h4>Art Direction</h4>
+                  <h4><IoMdBuild className='icons-main'/>Art Direction</h4>
                   <p>Graphics Design and Development.</p>
+                  <a className="text-more" href="#">Read More</a>
                 </div>
                 <div className="col-12 col-md-6 mb-3">
-                  <h4>Web Development</h4>
+                  <h4><MdFormatPaint className='icons-main'/>Web Development</h4>
                   <p>Website and Web App Development.</p>
+                  <a className="text-more" href="#">Read More</a>
                 </div>
                 <div className="col-12 col-md-6 mb-3">
-                  <h4>Copywriting</h4>
+                  <h4><MdQuestionAnswer className='icons-main'/>Copywriting</h4>
                   <p>Copywriting and Content Writing service.</p>
+                  <a className="text-more" href="#">Read More</a>
                 </div>
               </div>
             </div>

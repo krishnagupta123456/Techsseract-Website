@@ -7,11 +7,11 @@ import { FaFacebookF ,FaTwitter,FaInstagram} from "react-icons/fa";
 const Header = () => {
     return (
         <>
-            <div className="container-fluid text-light">
+            <div className="container-fluid  border-bottom  top-bar bg-dark ">
                 <div className='conacts'>
-                    <span>Phone: </span>
+                    <span className='text-white mr-3'>Phone: </span>
                    <a href="#"  className="contact-link me-3">+91-9452052583</a>
-                    <span>Email: </span>
+                    <span className='text-white mr-3'>Email: </span>
                     <a href="#" className="contact-link me-3">contact@techsseract.com</a>
                 </div>
                 <div className='social-icons' >
@@ -26,10 +26,10 @@ const Header = () => {
                     <h3>Techsseract.</h3>
                 </div>
                 <div className="navi_1">
-                    <a href="#" className="text-black me-2">Home</a>
-                    <a href="#" className="text-black me-2">Work</a>
-                    <a href="#" className="text-black me-2">Services</a>
-                    <a href="#" className="text-black">About</a>
+                    <a href="#" className="navigate me-2">Home</a>
+                    <a href="#" className="navigate me-2">Work</a>
+                    <a href="#" className="navigate me-2">Services</a>
+                    <a href="#" className="navigate">About</a>
                 </div>
             </div>
             <div className="logo">

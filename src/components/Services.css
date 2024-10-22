@@ -1,5 +1,8 @@
 .services {
   background-color: #fff;
+  margin-right: 12rem;
+  margin-left: 12rem;
+
 }
 
 .service-box {
@@ -14,16 +17,24 @@
 }
 
 .service-title {
-  font-size: 15px;
+  font-size: 20px;
   margin-top: 10px;
+  color: #333333c9;
 }
 
+.icon-service{
+  color: #32dbc6;
+  font-size: 43px;
+  margin-right: 20px
+}
 .service-text {
   font-size: 0.9rem;
   color: #333333c9;
 }
-.text-info{
+.text-infos{
   text-decoration: none;
+  color: #32dbc6;
+
 }
 
 a {
