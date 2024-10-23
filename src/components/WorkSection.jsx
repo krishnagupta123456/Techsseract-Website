@@ -11,54 +11,59 @@ const WorkSection = () => {
   return (
     <>
       {/* First Section */}
-      <div className="container py-5">
-            <div className="row">
-                {/* Innovate Section */}
-                <div className="col-lg-4 col-md-6 mb-4">
-                    <div className="card h-100 text-center border-0">
-                        <div className="card-body">
-                            <h3 className="card-title">Innovate</h3>
-                            <p className="card-text">Your growing business</p>
-                            <ul className="list-unstyled">
-                                <li><FaCheck className="icon-check" /> Customer Experience</li>
-                                <li><FaCheck className="icon-check"/> Product Management</li>
-                                <li><FaCheck className="icon-check"/> Proof of Concept</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                {/* Create Section */}
-                <div className="col-lg-4 col-md-6 mb-4">
-                    <div className="card h-100 text-center border-0">
-                        <div className="card-body">
-                            <h3 className="card-title">Create</h3>
-                            <p className="card-text">A new dimension for your business</p>
-                            <ul className="list-unstyled">
-                                <li><FaCheck className="icon-check"/> Web Design</li>
-                                <li><FaCheck className="icon-check"/> Consultancy</li>
-                                <li><FaCheck className="icon-check"/>Web & App Development</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                {/* Scale Section */}
-                <div className="col-lg-4 col-md-6 mb-4">
-                    <div className="card h-100 text-center border-0">
-                        <div className="card-body">
-                            <h3 className="card-title">Scale</h3>
-                            <p className="card-text">Your current business needs</p>
-                            <ul className="list-unstyled">
-                                <li><FaCheck className="icon-check"/> New Website</li>
-                                <li><FaCheck className="icon-check"/>Web Designing</li>
-                                <li><FaCheck className="icon-check"/>Logo and Design</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
+<div className="container py-5 mx-auto">
+  <div className="row justify-content-center">
+    {/* Innovate Section */}
+    <div className="col-12 col-md-6 col-lg-4 mb-4">
+      <div id="card" className="card h-100 border-0">
+        <div className="card-body">
+          <div className="number">01.</div>
+          <h3 className="card-title">Innovate</h3>
+          <p className="card-text mb-4 my-4">Your growing business</p>
+          <ul className="list-unstyled ul-check primary">
+            <li><FaCheck className="icon-check" /> Customer Experience</li>
+            <li><FaCheck className="icon-check" /> Product Management</li>
+            <li><FaCheck className="icon-check" /> Proof of Concept</li>
+          </ul>
         </div>
+      </div>
+    </div>
+
+    {/* Create Section */}
+    <div className="col-12 col-md-6 col-lg-4 mb-4">
+      <div id="card" className="card h-100 border-0">
+        <div className="card-body">
+          <div className="number">02.</div>
+          <h3 className="card-title">Create</h3>
+          <p className="card-text mb-4 my-4">A new dimension for your business</p>
+          <ul className="list-unstyled ul-check primary">
+            <li><FaCheck className="icon-check" /> Web Design</li>
+            <li><FaCheck className="icon-check" /> Consultancy</li>
+            <li><FaCheck className="icon-check" /> Web & App Development</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    {/* Scale Section */}
+    <div className="col-12 col-md-6 col-lg-4 mb-4">
+      <div id="card" className="card h-100 border-0">
+        <div className="card-body">
+          <div className="number">03.</div>
+          <h3 className="card-title">Scale</h3>
+          <p className="card-text mb-4 my-4">Your current business needs</p>
+          <ul className="list-unstyled ul-check primary">
+            <li><FaCheck className="icon-check" /> New Website</li>
+            <li><FaCheck className="icon-check" /> Web Designing</li>
+            <li><FaCheck className="icon-check" /> Logo and Design</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
 
       {/* Second Section */}
       <section className="work-section text-light py-4">
@@ -70,22 +75,22 @@ const WorkSection = () => {
             <div className="col-12 col-lg-6">
               <div className="row">
                 <div className="col-12 col-md-6 mb-3">
-                  <h4><MdBeachAccess className='icons-main'/>Strategy</h4>
+                  <h4><MdBeachAccess className='icons-main' />Strategy</h4>
                   <p>Strategy Development for your business promotion.</p>
                   <a className="text-more" href="#">Read More</a>
                 </div>
                 <div className="col-12 col-md-6 mb-3">
-                  <h4><IoMdBuild className='icons-main'/>Art Direction</h4>
+                  <h4><IoMdBuild className='icons-main' />Art Direction</h4>
                   <p>Graphics Design and Development.</p>
                   <a className="text-more" href="#">Read More</a>
                 </div>
                 <div className="col-12 col-md-6 mb-3">
-                  <h4><MdFormatPaint className='icons-main'/>Web Development</h4>
+                  <h4><MdFormatPaint className='icons-main' />Web Development</h4>
                   <p>Website and Web App Development.</p>
                   <a className="text-more" href="#">Read More</a>
                 </div>
                 <div className="col-12 col-md-6 mb-3">
-                  <h4><MdQuestionAnswer className='icons-main'/>Copywriting</h4>
+                  <h4><MdQuestionAnswer className='icons-main' />Copywriting</h4>
                   <p>Copywriting and Content Writing service.</p>
                   <a className="text-more" href="#">Read More</a>
                 </div>

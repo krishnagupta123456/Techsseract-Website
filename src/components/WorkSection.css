@@ -1,26 +1,50 @@
-
-/* Work Section Styles */
-.work-section {
-  background-color: #000000;
-  margin-right: 12rem;
-  margin-left: 12rem;
-  padding: 2rem; 
+#card {
+  text-align: left;
 }
 
-.img-fluid {
-  width: 80%;
-  height: auto;
+.card-body {
+  position: relative;
+  padding: 1rem !important;
+}
+
+.card-body .number {
+  font-size: 8rem;
+  position: absolute;
+  z-index: -1;
+  top: -3.5rem;
+  left: -2.5rem;
+  font-weight: 900;
+  color: #f2f4f5;
 }
 
 .card-body h3 {
   font-weight: 600;
-  color:#32dbc6;
+  color: #32dbc6;
 }
-.card-body p{
+
+.card-body p {
   color: #333333c9;
   font-size: 14px;
+  margin-top: 0;
 }
+
 .card-body ul {
+  padding-left: 0;
+}
+
+.ul-check {
+  margin-bottom: 50px;
+}
+
+.ul-check li {
+  position: relative;
+  padding-left: 0;
+  margin-bottom: 15px;
+  line-height: 1.5;
+  display: block;
+}
+
+.list-unstyled {
   padding-left: 0;
 }
 
@@ -28,22 +52,85 @@
   color: #333333c9;
   margin-bottom: 10px;
 }
-.icon-check{
+
+.icon-check {
   color: #32dbc6;
+  position: relative;
+  margin-right: 8px;
 }
-.icons-main{
+/* Media Queries for Responsiveness */
+@media (min-width: 992px) { 
+  .card {
+    margin-left: 6.4rem; 
+  }
+}
+
+@media (max-width: 992px) {
+  .col-md-6 {
+    width: 50%; 
+    margin: 0 auto; 
+  }
+}
+
+@media (max-width: 768px) {
+  .col-md-6 {
+    width: 100%; 
+  }
+  .card-body .number {
+    font-size: 5rem;
+    top: -2rem;
+    left: -1.5rem;
+  }
+
+  .card-body p {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 576px) {
+  .card-body .number {
+    font-size: 4rem;
+    top: -1.5rem;
+    left: -1rem;
+  }
+
+  .card-body p {
+    font-size: 10px;
+  }
+}
+
+
+
+
+/* Work Section Styles */
+.work-section {
+  background-color: #000000;
+  margin-right: 12rem;
+  margin-left: 12rem;
+  padding: 2rem;
+}
+
+.img-fluid {
+  width: 80%;
+  height: auto;
+}
+.icons-main {
   color: #ffff;
   margin-right: 6px;
 }
-.text-more{
+
+.text-more {
   color: #ffff;
 }
-.text-more:hover{
+
+.text-more:hover {
   text-decoration: none;
 }
-.col-12 p{
-  color:#737373;
+
+.col-12 p {
+  color: #737373;
 }
+
 /* Responsive Adjustments */
 
 /* Tablet View */
@@ -52,6 +139,7 @@
     margin-right: 3rem;
     margin-left: 3rem;
   }
+
   .card-body ul li {
     margin-bottom: 7px;
   }
@@ -64,6 +152,7 @@
     margin-left: 1rem;
     padding: 1rem;
   }
+
   .card-body ul li {
     margin-bottom: 5px;
   }

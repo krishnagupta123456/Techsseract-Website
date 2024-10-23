@@ -29,6 +29,7 @@ body {
 
 .text{
   color: #999999;
+  margin: 12px;
   text-decoration: none;
   transition: transform 0.3s ease, color 0.3s ease;
 }
@@ -41,4 +42,55 @@ body {
   color: #333333c9;
   
 }
+
+
+.about {
+  display: flex;
+  align-items: center; 
+  flex-wrap: wrap; 
+}
+
+.text-column {
+  margin-left: 20px; 
+}
+
+.image-column {
+  margin-left: 20px; 
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 992px) {
+  .text-column {
+      margin-left: 0;
+      text-align: center; 
+  }
+
+  .image-column {
+      margin-left: 0; 
+      text-align: center; 
+  }
+}
+
+@media (max-width: 576px) {
+  .text-column {
+      text-align: center; 
+  }
+
+  .image-column {
+      margin: 0 auto; 
+  }
+
+  h1 {
+      font-size: 1.5rem; 
+  }
+
+  h4 {
+      font-size: 1.2rem; 
+  }
+
+  p {
+      font-size: 0.9rem; /* Adjust paragraph size for mobile */
+  }
+}
+
 
